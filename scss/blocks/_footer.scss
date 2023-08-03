@@ -1,0 +1,107 @@
+footer{
+    width: 100%;
+    background: var(--blue, #F3F6F8);
+    padding-top: 100px;
+}
+.container{
+    .footer-container{
+    display: flex;
+     justify-content: space-around;
+     align-items: start;
+      .interpan{
+     
+       img{
+         width: 208.927px;
+         height: 60px;
+       }
+ 
+       p{
+         color: var(--dark-grey, #101D23);
+         font-family: Montserrat;
+         font-size: 14px;
+         font-style: normal;
+         font-weight: 400;
+         line-height: 135%;
+         width: 304px;
+         height: 127px;
+         margin-top: 30px;
+       }
+     }
+    }
+    .menu{
+   ul{
+     margin-top: 30px;
+     li{
+         padding: 5px;
+ 
+         a{
+             color: var(--dark-grey, #101D23);
+             font-family: Montserrat;
+             font-size: 14px;
+             font-style: normal;
+             font-weight: 500;
+             line-height: 120%;
+         }
+     }
+   }
+    }
+    .svyaz{
+     ul{
+         margin-top: 30px;
+         li{
+             padding: 5px;
+             a{
+                 display: flex;
+                 align-items: center;
+                 gap: 10px;
+                 color: var(--dark-grey, #101D23);
+                 font-family: Montserrat;
+                 font-size: 14px;
+                 font-style: normal;
+                 font-weight: 500;
+                 line-height: 120%;
+             }
+         }
+     }
+     p{
+         padding: 40px 0 5px 0;
+     }
+     img{
+        padding: 5px 5px;
+     }
+    }
+ 
+ .line{
+     width: 1280px;
+     height: 1px;
+     background-color: red;
+     margin: 20px 0 30px 0;
+ }
+ .footer-text{
+    p{
+        text-align: start;
+        color: var(--date-blog, #8E8F9B);
+        font-family: "Montserrat";
+        font-size: 12.091px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 135%; /* 16.323px */
+        margin-left: 100px;
+        padding: 40px 0 50px 0;
+    }
+ }
+ }
+ 
+ @media (max-width:760px) and (min-width:541){
+   .container{
+     max-width: 760px;
+     margin: 0 auto;
+ 
+     .footer-container{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+ 
+     }
+   }
+ }
